@@ -2,7 +2,7 @@ import tkinter as tk
 import random
 from tkinter import messagebox
 
-class Minesweeper:
+class Mineursweeper:
     def __init__(self, master, grid_size=30, mines=30):
         self.master = master
         self.grid_size = grid_size
@@ -62,7 +62,7 @@ class Minesweeper:
 def main():
     root = tk.Tk()
     root.title("Elle est super mature en vrai")
-    game = Minesweeper(root)
+    game = Mineursweeper(root)
     root.mainloop()
 
 if __name__ == "__main__":
